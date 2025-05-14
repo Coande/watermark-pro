@@ -14,6 +14,9 @@ jobs:
         with:
           node-version: 16.x  # 使用 OpenSSL 1.1.x 的版本
           cache: 'yarn'       # 启用 Yarn 缓存加速构建
+      # 处理 Dependencies lock file is not found 问题
+      - name: Generate yarn.lock
+        run: yarn install --no-immutable  # 强制生成 yarn.lock（即使 node_modules 存在）
 
       - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
