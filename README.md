@@ -6,7 +6,7 @@ English | [简体中文](./README_cn-zh.md)
 
 ![watermark pro](./screenshot.png)
 
-<p align="center"><a href="https://watermark-pro.turkyden.com" target="_blank">: : : Live Demo : : :</a></p>
+<p align="center"><a href="https://e12e.com/watermark-pro/" target="_blank">: : : Live Demo : : :</a></p>
 
 ## ✨ Feather
 
@@ -65,7 +65,7 @@ Thanks for your star!
 
 ## CDN
 
-[Click me to refresh cdn cache &rarr;](https://purge.jsdelivr.net/gh/turkyden/watermark-pro@gh-pages/)
+[Click me to refresh cdn cache &rarr;](https://purge.jsdelivr.net/gh/coande/watermark-pro@gh-pages/)
 
 ## License
 

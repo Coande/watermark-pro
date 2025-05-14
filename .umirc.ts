@@ -17,12 +17,12 @@ export default defineConfig({
   ],
   hash: true,
   analytics: {
-    baidu: 'd4071b11b31dd14a32c788c74c1d5b6b',
+    baidu: '',
   },
   runtimePublicPath: true,
   publicPath:
     process.env.NODE_ENV === 'production'
-      ? 'https://cdn.jsdelivr.net/gh/turkyden/watermark-pro@gh-pages/'
+      ? 'https://cdn.jsdelivr.net/gh/coande/watermark-pro@gh-pages/'
       : '/',
   theme: {
     'primary-color': '#6366F1',
